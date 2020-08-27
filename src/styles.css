@@ -1,4 +1,12 @@
-div {
-	background-color: gray;
-	color: black;
+.carousel {
+	position: relative;
+}
+
+.carousel-item {
+	position: absolute;
+	visibility: hidden;
+}
+
+.carousel-item.visible {
+	visibility: visible;
 }
