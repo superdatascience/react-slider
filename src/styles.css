@@ -1,8 +1,10 @@
-.carousel {
+.carousel-container {
+	height: 30px;
 	position: relative;
 }
 
 .carousel-item {
+	height: 100%;
 	position: absolute;
 	visibility: hidden;
 }
